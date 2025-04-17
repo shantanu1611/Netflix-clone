@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;   
+    background: linear-gradient(to bottom, rgba(67, 25, 25, 0.7), rgba(0, 0, 0, 0.3), rgba(47, 18, 18, 0.9));
+    background-repeat: no-repeat;
+    /* background-size: 100% 1000%; */
+    
+}
+
+.main1{
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 1.8rem;
+    align-items: center;
+}
+
+.navbar img{
+    height: 2.5rem;
+    width: 11rem;
+}
+
+.navbar button{
+    margin-left: 0.4rem;
+}
+
+.lang-btn{
+    border: 1px solid white;
+    background: none;
+    color: white;
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    border-radius: 2rem;
+    font-weight: 700;
+}
+
+.lang-btn i{
+    margin-left: 0.4rem;
+}
+
+.sign-btn{
+    border: none;
+    padding: 0.8rem;
+    border-radius: 2rem;
+    font-weight: 550;
+    font-size: 0.9rem;
+}
+
+.sign-btn:hover{
+    background-color: rgb(182, 182, 182);
+    cursor: pointer;
+}
+
+.land{
+    width: 100%;
+    height: 100vh;
+    padding: 0 3rem;
+}
+
+.land-logo{
+    width: 100%;
+    height: 80%;
+    background-size: cover;
+    background-position: center;
+    color: white;
+    border-radius: 5rem;
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+    position: relative;
+    
+}
+
+.ll-img{
+    width: 97%;
+    height: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index:0;
+    opacity: 0.6;
+    margin-left: 1.8rem;
+    border-radius: 3rem;
+}
+
+
+.lang-lotext{
+    width: 55%;
+    z-index: 1;
+    margin-left: 4rem;
+
+}
+
+.lang-lotext h1{
+    font-size: 3.8rem;
+    line-height: 4rem;
+    font-size: 3rem;
+}
+
+.lang-lotext h2{
+    font-weight:300;
+    margin:1rem 0 2rem 0;
+}
+
+.lang-lotext p{
+    font-weight: 700;
+    margin: 2rem 0 1rem 0;
+    font-size: 12px;
+}
+
+.lang-lotext input{
+    padding: 1rem 10rem 1rem 0.7rem;
+    opacity: 0.5;
+    border-radius: 2rem;
+    border: none;
+    background: rgba(255, 255, 255);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+    font-size: 1rem;
+}
+
+.lang-lotext input::placeholder{
+    color:black;
+    font-size: 1rem;
+}
+.lang-lotext input:focus {
+    background: rgba(255, 255, 255, 0.25);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+}
+
+.lang-lotext button{
+    font-size: 1.5rem;
+    background: red;
+    fill: currentcolor;
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 500;
+}
+
+
+.lang-lotext button:hover{
+    cursor: pointer;
+    background-color: rgb(180, 53, 53);
+}
+
+.main2{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.trending{
+    width: 90%;
+    height: 50%;
+    margin-top: 1.5rem;
+}
+
+.main2h2{
+    color: white;
+    margin: 1rem 0 0 1rem;
+    font-size: 1.6rem;
+}
+
+.trending img{
+    height: 80%;
+    width: 11%;
+    border-radius: 2rem;
+    margin: 0.8rem 0.7rem 1rem 1.5rem;
+    border: 2px solid transparent;
+} 
+
+.trending img:hover{
+    border: 2px solid white;
+}
+
+.reason{
+    width: 90%;
+    /* height: 50%; */
+    height: rem;
+    margin-top: 1.5rem;
+    display: flex;
+    position: relative;
+}
+
+
+.reasoncontent{
+    width: 25%;
+    height: 10rem;
+    background-color: #3a3a3a87;
+    padding: 1rem;
+    color: white;
+    margin: 5rem 0.7rem 1rem 1rem;
+    border-radius: 1rem;
+    position: relative;
+}
+
+.reason h2{
+    position: absolute;
+    top:1rem
+}
+
+.reasoncontent p{
+    font-size: 0.7rem;
+    margin-top: 0.9rem;
+    letter-spacing: 0.9px;
+    line-height: 15px;
+}
+
+.reasoncontent i{
+    position: absolute;
+    right: 1rem;
+    bottom: 1rem;
+    color: purple;
+    font-size: 2rem;
+}
+
+
+.faq{
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.faq-q{
+    width: 90%;
+    background-color: #3a3a3a87;
+    color: white;
+    border: none;
+    border-radius: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin:1rem 0 1rem 5rem;
+}
+
+.faq-q:hover{
+    cursor: pointer;
+    /* opacity: 0.7; */
+    background-color: rgba(255, 255, 255, 0.205);
+}
+
+.faq h2{
+    margin-left: 5rem;
+}
+
+.faq-q p{
+    font-weight: 600;
+}
+
+.email p{
+    color: white;
+    font-weight: 500;
+    margin: 1rem 0 1rem 2rem;
+    font-size: 0.8rem;
+}
+
+.email input{
+    padding: 1rem 10rem 1rem 0.7rem;
+    opacity: 0.5;
+    border-radius: 2rem;
+    border: none;
+    background: rgba(255, 255, 255);
+    border: 2px solid rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+    font-size: 1rem;
+}
+
+.email button{
+    font-size: 1.5rem;
+    background: red;
+    fill: currentcolor;
+    color: white;
+    padding: 0.6rem;
+    border: none;
+    border-radius: 2rem;
+    font-weight: 500;
+}
+
+.email button:hover{
+    cursor: pointer;
+    background-color: rgb(180, 53, 53);
+}
+
+footer{
+    color: white;
+    font-size: 0.8rem;
+    width: 80%;
+    margin: 2.5rem 6rem ;
+}
+
+.f-links{
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-around;
+    margin: 1.5rem 0 0 -5rem ;
+}
+
+footer ul{
+    margin-left: 2rem;
+}
+
+footer ul li{
+    list-style: none;
+    margin: 1rem 0;
+}
+
+footer a{
+    color: white;
+}
+
+footer button{
+    border: 2px solid black;
+    color: white;
+    background: black;
+    padding: 0.4rem 1.2rem;
+    border-radius: 2rem;
+    font-size: 1rem;
+    margin: 1.5rem 0 1rem 1rem ;
+}
+
+footer button i{
+    margin-left: 0.3rem;
+}
+
+.name{
+    margin: 0 0 2rem 1rem;
+}
